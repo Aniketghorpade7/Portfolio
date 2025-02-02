@@ -24,23 +24,11 @@ body{
     text-align: center;
 }
 
-#heading{
-  list-style-type: disc;
-  margin: 0;
-  padding: 0;
-}
-
 .education{
     list-style-type: circle;
     margin: 0;
     padding: 0;
     
-}
-
-#skills{
-  list-style-type: disc;
-  margin: 0;
-  padding: 0;
 }
 
 .skills{
@@ -50,9 +38,15 @@ body{
 }
 
 #information00{
-    background-color: aqua;
-    display: inline;
-    /* width: 50%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#information01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -67,61 +61,62 @@ body{
          Currently serving as a CR.  </p>
     <hr>
     <div id="information00">
-        <ul>
-            <li id="heading">Education</li>
+        
+            <div>
+             <li id="heading">Education</li>
 
-           <ul class="ecducation">
-            <li>Walchand Collage of Engineering, Sangli</li>
-            <p>Bachelor of IT<br>  2024-present</p>
-            <li>Super Thirty Jr. Collage </li>
-            <p>HSC,  84.5% <br>2024</p>
-            <li>SBOA Public School, Chh. Sambhajinagar</li>
-            <p>SSC, 93% <br>2022</p>
-           </ul>
-
-           <li id="heading">Skills</li>
+                <ul class="ecducation">
+                    <li>Walchand Collage of Engineering, Sangli</li>
+                        <p>Bachelor of IT<br>  2024-present</p>
+                    <li>Super Thirty Jr. Collage </li>
+                        <p>HSC,  84.5% <br>2024</p>
+                    <li>SBOA Public School, Chh. Sambhajinagar</li>
+                        <p>SSC, 93% <br>2022</p>
+                </ul>
+            </div>
+ 
+          <div>
+             <li id="heading">Skills</li>
            
-           <br>
+             <br>
 
-           <ul class="skills">
-            <li>Leadership.</li>
-            <li>Time-management.</li>
-            <li>Communication skills.</li>
-            <li>Team work.</li>
-            <li>Programing in C (Beginner)</li>
-           </ul>
+                <ul class="skills">
+                    <li>Leadership.</li>
+                    <li>Time-management.</li>
+                    <li>Communication skills.</li>
+                    <li>Team work.</li>
+                    <li>Programing in C (Beginner)</li>
+                </ul>
+            </div>
 
-           </ul>
+
     </div>
     <br>
     <br>
 
     <div id="information01">
-        <ul>
-            <li id="heading">Achievements</li>
+            <div>
+              <li id="heading">Achievements</li>
 
-           <ul class="achievements">
-            <li>Elceted as CR.</li>
-            <li>Qualified for JEE Advance.</li>
-            <li>Qualified Scholarship, Navodaya and many more exams.</li>
-            <li>Divisional Taekowndo player.</li>
-           </ul>
-
-           <br>
-
-           <li id="heading">Current Positions</li>
+                <ul class="achievements">
+                    <li>Elceted as CR.</li>
+                    <li>Qualified for JEE Advance.</li>
+                    <li>Qualified Scholarship, Navodaya and many more exams.</li>
+                    <li>Divisional Taekowndo player.</li>
+                </ul>
+            </div>
+ 
+            <div>
+                <li id="heading">Current Positions</li>
            
-           <br>
-
-           <ul class="CP">
-            <li>Class CR.</li>
-            <li>Member at WLUG</li>
-            <li>Member at MLSC.</li>
-            <li>Member at SAIT.</li>
-            <li>Member at Art Circle.</li>
-           </ul>
-
-           </ul>
+                    <ul class="CP">
+                        <li>Class CR.</li>
+                        <li>Member at WLUG</li>
+                        <li>Member at MLSC.</li>
+                        <li>Member at SAIT.</li>
+                        <li>Member at Art Circle.</li>
+                    </ul>
+            </div>
     </div>
 
 </body>
