@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html{
+    background-color: #ECF9FE;
+    color: #000066;
+    scroll-behavior: smooth;
+}
+
+#div0{
+    position: fixed;
+}
+
+.logo {
+    top: 20px;
+    left: 20px;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 36px;
+    color: #000066; 
+    z-index: 1000;
+    padding-right: 900px;
+}
+
+.header{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 0px;
+    background-color: #ECF9FE;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+
+}
+
+
+#div1{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 28, 85);
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#div2{
+    padding-top: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+p{
+    font-size: 40px;
+}
+
+#h01{
+    text-align: center;
+}
+#div3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#div4{
+    display: flex;
+}
+
+#div5{
+    align-items: center;
+    text-align: center;
+    padding-left: 160px;
+    padding-top: 120px;
+}
+
+#heading00{
+    text-align: center;
+    font-size: 50px;
+}
+
+#sboa{
+    padding-left: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #ECF9FE;
+}
+
+#sec1{
+    display: flex;
+    
+
+}
+
+#div7{
+    padding-left: 20px;
+}
+
+#div8{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+
+#div9{
+    background-color: rgb(149 180 216 / 0%);
+}
+#div10{
+    padding-left: 668px;
+   justify-content: center;
+   padding-top: 5%;
+
+}
+

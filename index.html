@@ -3,201 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style00.css">
-    <title>Portfolio</title>
-    
-    <style>
-        html{
-            scroll-behavior: auto;
-            background-color: #f0f8ff; /* Light Blue */
-        }
-        
-        body{
-            font-size: 30px;
-            color: #333; /* Dark Gray */
-        }
-        
-        .name{
-            height: 1000px;
-            width: 1700px;
-            margin: 10px;
-            display: block;
-        }
-        
-        #name{
-            position: absolute;
-            text-align: left;
-            bottom: 8px;
-            left: 16px;
-            font-size: 18px;
-            margin-left: 50px;
-            margin-bottom: 60px;
-        }
-        
-        #image1{
-            margin-left: 10px;
-            margin-right: 10px;
-            width: 90%;
-            border-radius: 5%;
-            border: 3px solid #4682b4; /* Steel Blue */
-        }
-        #h10{
-            color: #2c3e50; /* Dark Blue */
-            font-size: 60px;
-        }
-
-        #p00{
-            color: #2c3e50; /* Dark Blue */
-            text-align: left;
-            font-size: 45px;
-        }
-
-        .education{
-            list-style-type:circle;
-            margin: 0;
-            padding: 0;
-        }
-
-        .skills{
-            list-style-type: circle;
-            margin: 0;
-            padding: 0;
-        }
-
-        #information00{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-
-        #information01{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-
-        .achievements{
-            list-style-type:circle;
-            margin: 0;
-            padding: 0;
-        }
-
-
-        .CP{
-            list-style-type: circle;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            background: #ffffff;
-            margin: 300px;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #4682b4; /* Steel Blue */
-            border-radius: 5px;
-        }
-        button {
-            background: #4682b4; /* Steel Blue */
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-        button:hover {
-            background: #4169e1; /* Royal Blue */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="name">
-        <div id="name">
-            <h1 id="h10">Aniket Anil Ghorpade</h1>
-            
-            <p id="p00">Hello I am a student of WCE. I am from First Year IT and this is my <b>Portfolio</b>.Highly motivated and ambitious student recently joined the branch of Information Technology  at prestigious Walchand Collage of Engineering.
-                Currently serving as a CR.  
-            </p>
-            
-        </div>
-        <img id="image1" src="ME.jpeg">
+    <div id="div0">
+        <header class="header">
+            <div class="logo">&lt; Aniket A Ghorpade /&gt;</div>
+            <a href="index.html" style="color: rgb(0, 28, 85); font-weight: bold; background-color: transparent;">Home</a>
+            <a href="#div5" style="color: rgb(0, 28, 85); font-weight: bold; background-color: transparent;">Education</a>
+            <a href="" style="color: rgb(0, 28, 85); font-weight: bold; background-color: transparent;">Project</a>
+            <a href="" style="color: rgb(0, 28, 85); font-weight: bold; background-color: transparent;">Contact Me</a>
+        </header>
     </div>
-
-    <div id="information00">
+    <div id="div1"> 
+        <div id="div2">
+            <h1>
+                Aniket Ghorpade
+            </h1>
         
-        <div>
-         <li id="heading">Education</li>
-
-            <ul class="ecducation">
-                <li>Walchand Collage of Engineering, Sangli</li>
-                    <p>Bachelor of IT<br>  2024-present</p>
-                <li>Super Thirty Jr. Collage </li>
-                    <p>HSC,  84.5% <br>2024</p>
-                <li>SBOA Public School, Chh. Sambhajinagar</li>
-                    <p>SSC, 93% <br>2022</p>
-            </ul>
+            <h3>
+                <i>(Carpe diem)</i>
+            </h3>
+            <p>
+                A passionate student who is always eager to learn, <br>Highly motivated and ambitious student recently joined thebranch of Information Technology <br>at prestigious Walchand Collage of Engineering. 
+            </p>
         </div>
-
-      <div>
-         <li id="heading">Skills</li>
-       
-         <br>
-
-            <ul class="skills">
-                <li>Leadership.</li>
-                <li>Time-management.</li>
-                <li>Communication skills.</li>
-                <li>Team work.</li>
-                <li>Programing in C (Beginner)</li>
-            </ul>
-        </div>
-
-
-</div>
-<br>
-<br>
-
-<div id="information01">
-        <div>
-          <li id="heading">Achievements</li>
-
-            <ul class="achievements">
-                <li>Elected as CR.</li>
-                <li>Qualified for JEE Advance.</li>
-                <li>Qualified Scholarship, Navodaya and many more exams.</li>
-                <li>Divisional Taekowndo player.</li>
-            </ul>
-        </div>
-
-        <div>
-            <li id="heading">Current Positions</li>
-       
-                <ul class="CP">
-                    <li>Class CR.</li>
-                    <li>Member at WLUG</li>
-                    <li>Member at MLSC.</li>
-                    <li>Member at SAIT.</li>
-                    <li>Member at Art Circle.</li>
-                </ul>
-        </div>
-</div>
-
-    <div class="container">
-        <h2>Enquiry Form</h2>
-        <form id="inquiryForm">
-            <input type="text" id="fullname" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <input type="text" id="subject" placeholder="Subject" required>
-            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+                
+             <img id="img1" src="header.png" alt="404 image not found">           
     </div>
+
+        <h1 id="h01">
+            What I Do?  
+        </h1>
+
+    <div id="div3">
+        <img src="M1.PNG" alt="404 image not found">
+        <div>
+            <P>
+                I am a Student who is eager to learn. Currently I am learning WebDev, C++, and Networking. 
+            </P>
+            <p>
+                In WebDev I can code Html, basic CSS and very basic JS. 
+            </p>
+            <p>
+                For C++ I can code functions, Loops, Conditional Statements,
+            </p>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div id="div4">
+        <img src="Education.png" alt="Graduation hat">
+        <div id="div5">
+            <h1>
+                Education
+            </h1>
+            <p>
+                Basic Qualification and Certification. <br>
+                <a href="https://leetcode.com/u/AniketAG/"> 
+                    <img src="Images/Leetcode.png" alt="LeetCode"> 
+                </a>
+                <a href="https://www.hackerrank.com/profile/aniket_anil_gho1">
+                    <img src="Images/HackerRank.png" alt="HackerRank">
+                </a>
+                <a href="https://www.codechef.com/users/aniketag">
+                    <img src="Images/CodeChef.png" alt="CodeChef">
+                </a>
+                <a href="https://codeforces.com/profile/_aniket_ghorpade">
+                    <img src="Images/CodeForces.png" alt="CodeForces">
+                </a>    
+            </p>
+        </div>
+    </div>
+
+    <div id="div6">
+        <h2 id="heading00">
+            Academic qualifications
+        </h2>
+        <br><br>
+
+        <section id="sec1">
+            <img id="sboa" src="Images/sboa.png" alt="school logo">
+            <div id="div7">
+                <div id="div8">
+                    <div id="div9">
+                        <h4 id="heading2">
+                            S.B.O.A. Public school, Chhatrapati Sambhajinagar
+                        </h4>
+                        <h5 id="heading3"> 
+                            Secondary Education
+                        </h5>
+                    </div>
+                    <div id="div10">
+                        2017-2022
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+        
+        <section id="sec1">
+            <img id="sboa" src="Images/sboa.png" alt="school logo">
+            <div id="div7">
+                <div id="div8">
+                    <div id="div9">
+                        <h4 id="heading2">
+                            S.B.O.A. Public school, Chhatrapati Sambhajinagar
+                        </h4>
+                        <h5 id="heading3"> 
+                            Secondary Education
+                        </h5>
+                    </div>
+                    <div id="div10">
+                        2017-2022
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
 </body>
 </html>
