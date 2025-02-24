@@ -105,11 +105,15 @@ p{
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
+    background-color: #8bb1d7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 #div9{
     background-color: rgb(149 180 216 / 0%);
 }
+
 #div10{
     padding-left: 668px;
    justify-content: center;
